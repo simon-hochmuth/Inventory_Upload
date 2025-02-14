@@ -5,6 +5,16 @@
 - gem "rails", "~> 8.0.1"
 - gem 'mongoid', '~> 8.0'
 - gem "puma", ">= 5.0"
+  
+### Key Files are
+- integration-exercise.py is the python file used to make requests
+- inventory_api folder has the ruby files
+- .csv & .json are output files
+- ReadMe has summary of work done
+- images folder just has images used in readme
+
+
+
 
 
   
