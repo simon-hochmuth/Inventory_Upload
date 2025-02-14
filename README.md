@@ -5,15 +5,18 @@
 - gem "rails", "~> 8.0.1"
 - gem 'mongoid', '~> 8.0'
 - gem "puma", ">= 5.0"
+
+
+  
 # Extract/Transform in python
 
-### S3 bucket credentials, also build s3 URL 
+### S3 bucket credentials:
 ![alt text](images/image-9.png)
 
-### Pull in data using credentials
+### Pull in data using credentials:
 ![alt text](images/image-10.png)
 
-### This will write/update the csv file here:
+### This will write/update the csv file:
 ![alt text](images/image-11.png)
 
 ### Final output of Python w/o Ruby
@@ -26,7 +29,12 @@
 ### Note: That once the Ruby Project is complete this section may change
 ![alt text](images/image-13.png)
 
+
+
+
+
 # Ruby project located in inventory_api folder of project:
+
 ## Inventory API Important files are:
 
 ### - inventory_api/Gemfile
@@ -38,7 +46,11 @@
 ### inventory_api/app/models/inventory_unit.rb
 ![alt text](images/image-5.png)
 
-# after setting up Mongodb/Ruby 
+
+
+
+
+# After setting up Mongodb/Ruby 
 ### Type rails server
 ![alt text](images/image-1.png)
 
@@ -48,11 +60,13 @@
 ### Then setup the Post/Get Command and the model & controller will output the data here 
 ![alt text](images/image-3.png)
 
+
+
 # Last step integrate python 
 
-### Create the three scripts, then run each as an action below:
+### Create a generate(), upload(), list_uploads(), and main() script, then run each as an action of main() below:
 ![alt text](images/image-14.png)
 
 
-### Kill the ruby/mongodb instances
+### Kill the ruby/mongodb instances after complete
 ![alt text](images/image-15.png)
