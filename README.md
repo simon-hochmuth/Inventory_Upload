@@ -1,5 +1,10 @@
 # Readme for the Project
-
+### Versions being used are
+- Utilizing ruby 3.2.7 (2025-02-04 revision 02ec315244) [x64-mingw-ucrt]
+- MongoDB 8.0
+- gem "rails", "~> 8.0.1"
+- gem 'mongoid', '~> 8.0'
+- gem "puma", ">= 5.0"
 # Extract/Transform in python
 
 ### S3 bucket credentials, also build s3 URL 
